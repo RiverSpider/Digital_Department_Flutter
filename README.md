@@ -1,16 +1,47 @@
-# digital_department_flutter
+# Digital_Department_Flutter
 
-Flutter project for Effective
+![Flutter App Screenshot](screenshots/Flutter_Screenshot1.jpg)
 
-## Getting Started
+![Flutter App Screenshot](screenshots/Flutter_Screenshot2.jpg)
 
-This project is a starting point for a Flutter application.
+## Описание проекта
+Это проект экрана приложения, написанный на Flutter c использованием Dart. На экране присутствуют следующие элементы:
 
-A few resources to get you started if this is your first Flutter project:
+- **Кнопки выхода**: Кнопки выхода из приложения
+- **Аватар**: Аватар пользователя.
+- **Имя**: Имя пользователя.
+- **Кнопки навигации**: Кнопки для навигации по приложению.
+- **Заголовок для карточек**: Заголовок для карточек приложения.
+- **Карточки**: Карточки приложения.
+- **Заголовок операций**: Заголовок для кнопок операций.
+- **Кнопки операций**: Кнопки операций сбера.
+- **Заголовок интересов**: Заголовок для кнопок интересов.
+- **Кнопки интересов**: Кнопки интересов пользователя.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Структура проекта
+- **`main`**: Главный файл для компиляции всего приложения.
+- **`card`**:  Карточки приложения..
+- **`disclosure`**: Кнопки операций сбера.
+- **`fill`**: Кнопки интересов пользователя.
+- **`navigationbuttons`**: Кнопки для навигации по приложению.
+- **`sectionheader`**: Заголовоки приложения.
+- **`appbar`**: Кнопки выхода из приложения
+- **`avatar`**: Аватар пользователя.
+- **`name`**: Имя пользователя.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Технологии
+- Flutter, Dart
+
+## Как использовать
+1. Клонируйте репозиторий.
+2. Откройте проект в вашей IDE. Желательно в AndroidStudio.
+3. Запустите проект и убедитесь, что у вас установлены все необходимые зависимости.
+
+На момент написания
+Версия flutter: 3.16.1
+Версия Dart: 3.2.1
+Работал в Android Studio, версия: BumbleBee | 2021.1.1 Patch 3
+Проверял на телефоне: Pixel 2 API 30
+
+## Автор
+Автор: Раевских Максим Игоревич
